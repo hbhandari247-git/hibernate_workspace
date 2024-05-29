@@ -8,9 +8,9 @@ public class HibernateApplication {
 
 		StudentDAO studentDao = new StudentDAO();
 
-		Student student = new Student("Himanshu", "Bhandari", "hbhan238@gmail.com");		
+		Student student = new Student("Himanshu", "Bhandari", "hb12@gmail.com");		
 		System.out.println(studentDao.saveStudent(student));
-		System.out.println(studentDao.getStudentById(1));
-		System.out.println(studentDao.updateStudentById(1, "hbha947@gmail.com"));
+		System.out.println(studentDao.getStudentById(2));
+		System.out.println(studentDao.updateStudentById(2, "hb1203@gmail.com"));
 	}
 }
